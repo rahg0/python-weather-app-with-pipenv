@@ -9,26 +9,26 @@ $ cd python-weather-app-with-pipenv
 
 2. Install Pipenv tool (if not present already):
 ```sh
-$ pip install pipenv
+/python-weather-app-with-pipenv$ pip install pipenv
 ```
 
 3. Install all the dependency packages locked in `Pipefile.lock` file:
 ```sh
-$ pipenv install 
+/python-weather-app-with-pipenv$ pipenv install 
 ```
 
 4. Activate this project's virtualenv:
 ```sh
-$ pipenv shell 
+/python-weather-app-with-pipenv$ pipenv shell 
 ```
 
-6. Create an [OpenWeather](https://openweathermap.org/) account and generate an API Key.
+5. Create an [OpenWeather](https://openweathermap.org/) account and generate an API Key.
 
-7. Assign the API Key for **api_key** in `app.py` file. 
+6. Assign the API Key for **api_key** in `app.py` file. 
 
-8. Run the application:
+7. Run the application:
 ```sh
-$ python app.py
+(python-weather-app-with-pipenv) /python-weather-app-with-pipenv$ python app.py
 Enter the city name: bengaluru
 Weather in Bengaluru:
 Temperature: 30.6°C
@@ -37,7 +37,7 @@ Condition: Broken clouds
 
 ## Scan for Security Issues
 ```sh
-$ orca-cli fs scan ./
+(python-weather-app-with-pipenv) /python-weather-app-with-pipenv$ orca-cli fs scan ./
 ✓ Performing file system scanning for security risks
 ✓ Performing results analysis and policy decision (via Orca Cloud)
 ========================================================================
