@@ -1,32 +1,32 @@
 # python-weather-app-with-pipenv
 
 ## Installation
-1. Clone the repo:
+- Clone the repo:
 ```sh
 $ git clone https://github.com/rahg0/python-weather-app-with-pipenv.git
 $ cd python-weather-app-with-pipenv
 ```
 
-2. Install Pipenv tool (if not present already):
+- Install `Pipenv` tool (if not present already):
 ```sh
 /python-weather-app-with-pipenv$ pip install pipenv
 ```
 
-3. Install all the dependency packages locked in `Pipefile.lock` file:
+- Install all the dependency packages locked in `Pipefile.lock` file:
 ```sh
 /python-weather-app-with-pipenv$ pipenv install 
 ```
 
-4. Activate this project's virtualenv:
+- Activate this project's virtualenv:
 ```sh
 /python-weather-app-with-pipenv$ pipenv shell 
 ```
 
-5. Create an [OpenWeather](https://openweathermap.org/) account and generate an API Key.
+- Create an [OpenWeather](https://openweathermap.org/) account and generate an API Key.
 
-6. Assign the API Key for **api_key** in `app.py` file. 
+- Assign the API Key for **api_key** in `app.py` file. 
 
-7. Run the application:
+- Run the application:
 ```sh
 (python-weather-app-with-pipenv) /python-weather-app-with-pipenv$ python app.py
 Enter the city name: bengaluru
